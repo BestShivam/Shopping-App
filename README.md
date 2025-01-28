@@ -72,7 +72,7 @@ dependencies {
 ```
 ### 2. API 
 
-### 1. Add Dependencies
+### Add Dependencies
 ```kotlin
 // build.gradle.kts
 dependencies {
