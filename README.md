@@ -36,8 +36,6 @@ This project significantly enhanced my Android development skills:
 - **API Handling**: Gained experience with Retrofit error handling
 - **State Management**: Implemented robust loading/error/success states
 
-# Development Journey: Overcoming Challenges 🛠️
-
 ## Challenges Faced ❌
 
 ### 1. Shimmer Effect Implementation
