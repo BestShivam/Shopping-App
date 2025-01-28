@@ -72,6 +72,21 @@ dependencies {
     implementation("com.valentinilk.shimmer:compose-shimmer:1.3.1")
 }
 ```
+### 2. API 
+
+### 1. Add Dependencies
+```kotlin
+// build.gradle.kts
+dependencies {
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("io.coil-kt:coil-compose:2.4.0")
+}
+```
+- json 
+```bash
+https://dummyjson.com/products?limit=10&skip=0
+```
 
 **Let's connect!** 🔗  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shivam-kumar-79a851266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
