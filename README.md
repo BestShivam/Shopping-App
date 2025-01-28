@@ -1,6 +1,4 @@
-# Shopping App
-
- # 🛒 
+# Shopping App 🛒 
  
 A modern Android shopping app built with **Jetpack Compose**, demonstrating integration with dummy APIs, shimmer effects, and tab navigation. Part of my journey to explore advanced Android UI/UX patterns.
 
@@ -37,6 +35,43 @@ This project significantly enhanced my Android development skills:
 - **Compose Optimization**: Improved Lazy Column performance techniques
 - **API Handling**: Gained experience with Retrofit error handling
 - **State Management**: Implemented robust loading/error/success states
+
+# Development Journey: Overcoming Challenges 🛠️
+
+## Challenges Faced ❌
+
+### 1. Shimmer Effect Implementation
+**Initial Struggle:**  
+_"I couldn't understand how to coordinate loading states with actual data fetch operations"_
+
+**Breakthrough:**  
+```kotlin
+// Shimmer composable
+@Composable
+fun ShimmerEffect() {
+    Box(
+  modifier = Modifier
+    .size(128.dp)
+    .background(Color.Blue)
+    .shimmer(),
+  contentAlignment = Alignment.Center
+) {
+  Box(
+    modifier = Modifier
+      .size(64.dp)
+      .background(Color.Red)
+  )
+ }
+}
+
+```
+
+**Dependency Used:**
+```kotlin
+dependencies {
+    implementation("com.valentinilk.shimmer:compose-shimmer:1.3.1")
+}
+```
 
 **Let's connect!** 🔗  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shivam-kumar-79a851266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
