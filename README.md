@@ -1,7 +1,7 @@
 # Shopping App
 
  # 🛒 
-
+ 
 A modern Android shopping app built with **Jetpack Compose**, demonstrating integration with dummy APIs, shimmer effects, and tab navigation. Part of my journey to explore advanced Android UI/UX patterns.
 
 ## Features ✨
@@ -19,7 +19,6 @@ A modern Android shopping app built with **Jetpack Compose**, demonstrating inte
 - **UI Toolkit**: Jetpack Compose
 - **Network**: Retrofit + Kotlin Coroutines
 - **Architecture**: MVVM + Clean Architecture
-- **DI**: Hilt
 - **Image Loading**: Coil
 - **Design System**: Material3
 
@@ -39,8 +38,5 @@ This project significantly enhanced my Android development skills:
 - **API Handling**: Gained experience with Retrofit error handling
 - **State Management**: Implemented robust loading/error/success states
 
-**Bonus Experience**: Created a separate [API-Test-Lab](https://github.com/yourusername/api-test-lab) repository to experiment with different API configurations and MVVM implementations before integrating them into this main project.
-
-
 **Let's connect!** 🔗  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shivam-kumar-79a851266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
